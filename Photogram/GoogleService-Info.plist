@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>155126132766-ln77d90jj5q7msakf4l84a6himd06sn6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.155126132766-ln77d90jj5q7msakf4l84a6himd06sn6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAxrvfyactn2N_ZwzWgJNT3I-qfR8AwZ8Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>155126132766</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.EGS.Photogram.app</string>
+	<key>PROJECT_ID</key>
+	<string>photogram-46282</string>
+	<key>STORAGE_BUCKET</key>
+	<string>photogram-46282.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:155126132766:ios:694356ba87480d1a7c3e0f</string>
+</dict>
+</plist>
