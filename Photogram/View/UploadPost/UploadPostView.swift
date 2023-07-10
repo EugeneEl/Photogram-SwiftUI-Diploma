@@ -17,18 +17,22 @@ struct UploadPostView: View {
     
     var body: some View {
         VStack {
-            if postImage == nil {
-                AddImageButton(imagePickerPresented: $imagePickerPresented)
-                    .sheet(isPresented: $imagePickerPresented, onDismiss: loadImage) {
-                        ImagePicker(image: $selectedImage)
-                    }
-            } else if let image = postImage {
-                PostEditorView(postImage: image, captionText: $captionText)
-                PostActionsView(captionText: $captionText, postImage: $postImage, tabIndex: $tabIndex, viewModel: viewModel, selectedImage: $selectedImage)
+            VStack {
+                if postImage == nil {
+                    Spacer()
+                    AddImageButton(imagePickerPresented: $imagePickerPresented)
+                        .sheet(isPresented: $imagePickerPresented, onDismiss: loadImage) {
+                            ImagePicker(image: $selectedImage)
+                        }
+                    Spacer()
+                } else if let image = postImage {
+                    PostEditorView(postImage: image, captionText: $captionText)
+                    PostActionsView(captionText: $captionText, postImage: $postImage, tabIndex: $tabIndex, viewModel: viewModel, selectedImage: $selectedImage)
+                }
             }
+            .padding()
+            Spacer()
         }
-        .padding()
-        Spacer()
     }
 
     func loadImage() {

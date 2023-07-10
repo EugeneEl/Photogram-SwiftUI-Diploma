@@ -47,6 +47,7 @@ struct LoginView: View {
                 }
             }
         }
+        .tint(.white)
     }
 }
 
@@ -88,6 +89,7 @@ private extension View {
             .cornerRadius(10)
             .foregroundColor(.white)
             .padding(.horizontal, 32)
+            .tint(.white)
     }
 }
 

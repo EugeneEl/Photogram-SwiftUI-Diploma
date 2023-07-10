@@ -210,13 +210,13 @@
 		44E094662A00B35700A0BB3F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				44E63B982A5BD00200392F64 /* Comments */,
+				44E63B972A5BCFFB00392F64 /* PostGrid */,
+				44E63B962A5BCFF000392F64 /* UploadPost */,
 				44E094752A00B47D00A0BB3F /* Feed */,
 				44E094742A00B47700A0BB3F /* Notifications */,
 				44E094732A00B46E00A0BB3F /* Profile */,
 				44E094722A00B46600A0BB3F /* Authentification */,
-				440668172A245E0F00FEE0BA /* UploadPostViewModel.swift */,
-				44AEA1B62A271F0D007AD404 /* PostGridViewModel.swift */,
-				44BBD0F92A31F0EF00DFF2EF /* CommentsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -368,6 +368,30 @@
 				44BBD0C82A2F795E00DFF2EF /* FeedCellViewModel.swift */,
 			);
 			path = Feed;
+			sourceTree = "<group>";
+		};
+		44E63B962A5BCFF000392F64 /* UploadPost */ = {
+			isa = PBXGroup;
+			children = (
+				440668172A245E0F00FEE0BA /* UploadPostViewModel.swift */,
+			);
+			path = UploadPost;
+			sourceTree = "<group>";
+		};
+		44E63B972A5BCFFB00392F64 /* PostGrid */ = {
+			isa = PBXGroup;
+			children = (
+				44AEA1B62A271F0D007AD404 /* PostGridViewModel.swift */,
+			);
+			path = PostGrid;
+			sourceTree = "<group>";
+		};
+		44E63B982A5BD00200392F64 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				44BBD0F92A31F0EF00DFF2EF /* CommentsViewModel.swift */,
+			);
+			path = Comments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

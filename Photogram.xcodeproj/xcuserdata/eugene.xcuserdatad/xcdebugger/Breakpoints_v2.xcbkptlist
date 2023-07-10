@@ -34,6 +34,38 @@
             endingLineNumber = "59"
             landmarkName = "fetchNotificationPost()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "70D5281C-7E2A-4F80-A68D-693AD854A300 - 546778278cecef0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRDocumentSnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Photogram.NotificationCellViewModel.fetchNotificationPost() -&gt; ()"
+                  moduleName = "Photogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eugene/Photogram-SwiftUI-Diploma/Photogram/ViewModel/Notifications/NotificationCellViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  uuid = "70D5281C-7E2A-4F80-A68D-693AD854A300 - 546778278cecef0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRDocumentSnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Photogram.NotificationCellViewModel.fetchNotificationPost() -&gt; ()"
+                  moduleName = "Photogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eugene/Photogram-SwiftUI-Diploma/Photogram/ViewModel/Notifications/NotificationCellViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -80,6 +112,36 @@
                   startingLineNumber = "47"
                   endingLineNumber = "47"
                   offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  uuid = "1F61FEBC-3B65-4E5F-8A92-B3A7A3F99C8D - 92e93f228c014346"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Photogram.NotificationCellViewModel.fetchNotificationPost() -&gt; ()"
+                  moduleName = "Photogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eugene/Photogram-SwiftUI-Diploma/Photogram/ViewModel/Notifications/NotificationCellViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "634">
+               </Location>
+               <Location
+                  uuid = "1F61FEBC-3B65-4E5F-8A92-B3A7A3F99C8D - 92e93f228c014346"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Photogram.NotificationCellViewModel.fetchNotificationPost() -&gt; ()"
+                  moduleName = "Photogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eugene/Photogram-SwiftUI-Diploma/Photogram/ViewModel/Notifications/NotificationCellViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "713">
                </Location>
             </Locations>
          </BreakpointContent>

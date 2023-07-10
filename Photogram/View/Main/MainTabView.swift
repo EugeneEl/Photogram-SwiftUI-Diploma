@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MainTabView: View {
+    
     let user: User
     @Binding var selectedIndex: Int
     
@@ -20,8 +21,7 @@ struct MainTabView: View {
                     }
                     .tabItem {
                         Image(systemName: "house")
-                    }
-                    .tag(0)
+                    }.tag(0)
                 
                 SearchView()
                     .onTapGesture {
@@ -29,17 +29,15 @@ struct MainTabView: View {
                     }
                     .tabItem {
                         Image(systemName: "magnifyingglass")
+                    }.tag(1)
+                
+                UploadPostView(tabIndex: $selectedIndex)
+                    .onTapGesture {
+                        selectedIndex = 2
                     }
-                    .tag(1)
-//                
-//                UploadPostView(tabIndex: $selectedIndex)
-//                    .onTapGesture {
-//                        selectedIndex = 2
-//                    }
-//                    .tabItem {
-//                        Image(systemName: "plus.square")
-//                    }
-//                    .tag(2)
+                    .tabItem {
+                        Image(systemName: "plus.square")
+                    }.tag(2)
                 
                 NotificationsView()
                     .onTapGesture {
@@ -47,8 +45,7 @@ struct MainTabView: View {
                     }
                     .tabItem {
                         Image(systemName: "heart")
-                    }
-                    .tag(3)
+                    }.tag(3)
                 
                 ProfileView(user: user)
                     .onTapGesture {
@@ -56,34 +53,38 @@ struct MainTabView: View {
                     }
                     .tabItem {
                         Image(systemName: "person")
-                    }
-                    .tag(4)
+                    }.tag(4)
             }
-            .accentColor(.black)
             .navigationTitle(tabTitle)
-            .navigationBarItems(leading: logoutButtom)
             .navigationBarTitleDisplayMode(.inline)
+            .navigationBarItems(leading: logoutButton)
+            .accentColor(.black)
+        }
+    }
+        
+    var tabTitle: String {
+        switch selectedIndex {
+        case 0:
+            return "Feed"
+        case 1:
+            return "Explore"
+        case 2:
+            return "New Post"
+        case 3:
+            return "Notifications"
+        case 4:
+            return "Profile"
+        default:
+            return ""
         }
     }
     
-    var logoutButtom: some View {
-        Button(action: {
+    var logoutButton: some View {
+        Button {
             AuthViewModel.shared.signOut()
-        }, label: {
+        } label: {
             Text("Logout")
                 .foregroundColor(.black)
-        })
-    }
-    
-    var tabTitle: String {
-        switch selectedIndex {
-        case 0: return "Feed"
-        case 1: return "Explore"
-        case 2: return "New Post"
-        case 3: return "Notifications"
-        case 4: return "Profile"
-        default: return ""
         }
     }
 }
-
